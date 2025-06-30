@@ -191,7 +191,7 @@ MonoBehaviour:
     m_Value: 100
   redOutGreenIn:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -7
   redOutBlueIn:
     m_OverrideState: 1
     m_Value: 0
@@ -398,15 +398,6 @@ MonoBehaviour:
   occlusionOnlyReflectionNormalization:
     m_OverrideState: 1
     m_Value: 1
-  intensityMultiplier:
-    m_OverrideState: 1
-    m_Value: 1
-  skyOcclusionIntensityMultiplier:
-    m_OverrideState: 1
-    m_Value: 1
-  worldOffset:
-    m_OverrideState: 1
-    m_Value: {x: 0, y: 0, z: 0}
 --- !u!114 &733309036740700327
 MonoBehaviour:
   m_ObjectHideFlags: 3

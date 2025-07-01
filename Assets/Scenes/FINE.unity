@@ -3294,7 +3294,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3775d99d2c685544faea64445eb53347,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.115
+      value: 1.113
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3775d99d2c685544faea64445eb53347,
         type: 3}
@@ -3356,6 +3356,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: cc22448ffeafeb8498747f9e4d63435c, type: 2}
+    - target: {fileID: -459685667917548068, guid: 3775d99d2c685544faea64445eb53347,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.182
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3775d99d2c685544faea64445eb53347,
         type: 3}
       propertyPath: m_Name
@@ -3380,6 +3385,10 @@ PrefabInstance:
     - {fileID: -696302156171820657, guid: 3775d99d2c685544faea64445eb53347, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -6842387383720597635, guid: 3775d99d2c685544faea64445eb53347,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1093875651}
     - targetCorrespondingSourceObject: {fileID: -8920690787901495099, guid: 3775d99d2c685544faea64445eb53347,
         type: 3}
       insertIndex: -1
@@ -7425,6 +7434,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1680136628}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &1093875647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6842387383720597635, guid: 3775d99d2c685544faea64445eb53347,
+    type: 3}
+  m_PrefabInstance: {fileID: 381031471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1093875651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093875647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46c8257ce96be943ba2827dfa99d149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3280625
+      value: 0.19294484
+      inSlope: -0.048385154
+      outSlope: -0.048385154
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.49196672
+      outWeight: 0.23682073
+    - serializedVersion: 3
+      time: 0.980011
+      value: -0.0065956116
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1104106508
 GameObject:
   m_ObjectHideFlags: 0
@@ -8494,8 +8554,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.4861927
-      value: 0.5608508
+      time: 0.4637928
+      value: 0.27751797
       inSlope: 0.032861844
       outSlope: 0.032861844
       tangentMode: 0
